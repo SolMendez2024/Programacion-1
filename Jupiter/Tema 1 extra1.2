@@ -1,0 +1,29 @@
+"""
+Curso: Programacioón 1
+Colaboradores: 
+Fecaha: 04-04-24
+"""
+#Se define la variable num_secreto como un numero aleatorio entre 1 y 10
+import random
+num_secreto = random.randint(1, 10)
+
+num_jugador = 0
+
+
+#quiero que la comparacion sea hasta que las variables sean iguales
+while num_jugador != num_secreto:
+  #solicitar al usuario un numero y guardarlo en la variable num_jugador
+  num_jugador = int(input("Ingresa un numero del 1 al 10"))
+
+#si el numero es mayor que el secreto 
+  if num_jugador > num_secreto:
+    print("El numero es mayor al secreto")
+
+  #si el numero es menor que el secreto
+  if num_jugador < num_secreto:
+    print("El numero es menor al secreto")
+  
+  if num_jugador != num_secreto:
+    print("vuelve a intentarlo")
+
+print("ganaste")
