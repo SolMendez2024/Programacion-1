@@ -25,7 +25,7 @@ class Autor:
           print(f"\nEl libro '{titulo_libro}' no se encuentra en la lista del autor.")
 
 #Modo de uso 
-autor_nombre=input("\nIgrese nombre del autor/a:")
+autor_nombre= input("\nIgrese nombre del autor/a:")
 nacionalidad_autor= input("\nIngrese la nacionalidad:")
 
 autor = Autor(autor_nombre, nacionalidad_autor)
@@ -36,7 +36,7 @@ print("\nAutor:", autor.nombre)
 print("Nacionalidad:", autor.nacionalidad)
 
 #Ciclo principal del programa 
-"""while True:
+while True:
      print("\nOpciones:")
      print("1. Agregar libro")
      print("2. Eliminar libro")
@@ -57,7 +57,7 @@ print("Nacionalidad:", autor.nacionalidad)
         print("Libros:", [libro.titulo for libro in autor.libros])
         break
      else:
-          print("\nOpción fallida.")""""""
+          print("\nOpción fallida.")
 
           
 
