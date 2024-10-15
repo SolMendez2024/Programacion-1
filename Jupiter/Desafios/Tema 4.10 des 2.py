@@ -57,21 +57,21 @@ def mostrar_armas():
         print(f"{arma['nombre']} - Tipo: {arma['tipo']} - Daño: {arma['daño']}")
 
 # Crear armas
-crear_arma("Espada", 10, "Cuerpo a cuerpo")
-crear_arma("Varita", 8, "Mágica")
-crear_arma("Arco", 12, "A distancia")
+crear_arma("Zapatillas", 10, "Viaja en el tiempo")
+crear_arma("Lentes", 8, "Mágicos")
+crear_arma("Puño", 12, "A distancia")
 
 # Crear personajes
-crear_personaje("Guerrero", 100, 20, "Golpe crítico", "Espada")
-crear_personaje("Mago", 80, 15, "Lanzar hechizo", "Varita")
-crear_personaje("Arquero", 90, 18, "Disparar flecha", "Arco")
+crear_personaje("Flash", 100, 20, "Velocidad", "Zapatillas")
+crear_personaje("Cisco", 80, 15, "Vibrar", "Lentes")
+crear_personaje("Killer Frost", 90, 18, "Hielo", "Puño")
 
 # Mostrar personajes y armas
 mostrar_personajes()
 mostrar_armas()
 
 # Agregar nuevos personajes
-crear_personaje("Asesino", 95, 22, "Ataque sigiloso", "Espada")
+crear_personaje("Sabitar", 95, 22, "Telequinesis", "Casco")
 
 # Mostrar personajes y armas actualizados
 mostrar_personajes()
